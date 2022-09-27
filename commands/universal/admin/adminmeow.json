@@ -1,0 +1,9 @@
+{
+    "name": "adminmeow",
+    "desc": "Lister les commandes admin disponibles",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "badges",
+    "desc": "Obtenir la liste des badges",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

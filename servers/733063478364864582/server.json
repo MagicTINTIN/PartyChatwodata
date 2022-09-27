@@ -1,0 +1,194 @@
+{
+    "serverId": "733063478364864582",
+    "pointsName": "points",
+    "cardBackground": "",
+    "pointsImage": "",
+    "xpBoostFactor": 2.9,
+    "pointsBoostFactor": 4,
+    "gameRules": {},
+    "events": {
+        "onMessage": {
+            "xpMin": 9,
+            "xpMax": 25,
+            "pointsMax": 4
+        },
+        "onReaction": {
+            "xp": 7,
+            "points": 5
+        },
+        "onBoost": {
+            "xp": 500,
+            "points": 400
+        },
+        "onThanks": {
+            "xpGiver": 10,
+            "pointsGiver": 5,
+            "xpReceiver": 60,
+            "pointsReceiver": 50,
+            "adminXpReceiver": 60,
+            "adminPointsReceiver": 80,
+            "thankCooldown": 30000
+        },
+        "onNextLvl": {
+            "announceInMp": true,
+            "message": "Félicitations, tu viens de passer au niveau $lvl sur le serveur WYZENIX"
+        }
+    },
+    "levels": [
+        {
+            "badgeImage": "",
+            "levelName": "undefined",
+            "levelColor": "",
+            "levelBackground": "",
+            "roleId": "733076139387650158",
+            "xpmin": 0
+        },
+        {
+            "badgeImage": "",
+            "levelName": "lvl1",
+            "levelColor": "",
+            "levelBackground": "",
+            "roleId": "995390152446857276",
+            "xpmin": 900
+        },
+        {
+            "badgeImage": "",
+            "levelName": "lvl2",
+            "levelColor": "",
+            "levelBackground": "",
+            "roleId": "995390242032980068",
+            "xpmin": 4000
+        },
+        {
+            "badgeImage": "",
+            "levelName": "lvl3",
+            "levelColor": "",
+            "levelBackground": "",
+            "roleId": "995391156793921556",
+            "xpmin": 6000
+        }
+    ],
+    "leaderboard": {
+        "xpfactor": 1,
+        "pointsfactor": 0.1,
+        "spentpointsfactor": 0.6,
+        "msgfactor": 10,
+        "reactfactor": 1,
+        "thankedfactor": 25
+    },
+    "otherBadges": {
+        "booster": {
+            "badgeImage": "",
+            "levelColor": "",
+            "levelBackground": ""
+        },
+        "formerbooster": {
+            "badgeImage": "",
+            "levelColor": "",
+            "levelBackground": ""
+        },
+        "firstmember": {
+            "badgeImage": "",
+            "levelColor": "",
+            "levelBackground": ""
+        }
+    },
+    "badgesList": {
+        "lvl1": {
+            "emote": "1004088051292717066",
+            "name": "Abonné niveau 1",
+            "description": "Faites monter votre xp sur le serveur pour obtenir ce badge"
+        },
+        "lvl2": {
+            "emote": "1004088055155667104",
+            "name": "Abonné niveau 2",
+            "description": "Faites monter votre xp sur le serveur pour obtenir ce badge"
+        },
+        "lvl3": {
+            "emote": "1004088058955702465",
+            "name": "Abonné niveau 3",
+            "description": "Faites monter votre xp sur le serveur pour obtenir ce badge"
+        },
+        "formerbooster": {
+            "emote": "1004088047442329660",
+            "name": "Ancien booster",
+            "description": "Obtensible en ayant boosté le serveur"
+        },
+        "booster": {
+            "emote": "1004088042253996032",
+            "name": "Booster",
+            "description": "Obtensible en boostant le serveur"
+        },
+        "firstmember": {
+            "emote": "1004088045559091281",
+            "name": "Premier Membre",
+            "description": "Il fallait être un des premiers"
+        }
+    },
+    "rankcard": {
+        "font": "Bebas Neue",
+        "textcolor": "#fff",
+        "image": "https://cdn.discordapp.com/attachments/1000803254923428000/1003778401498300608/wyzerankv2.png",
+        "imageov": "https://cdn.discordapp.com/attachments/1000803254923428000/1003778429537230969/wyzerankovv2.png",
+        "sizex": 900,
+        "sizey": 450,
+        "pdp": {
+            "shape": "circle",
+            "x": 237,
+            "y": 225,
+            "size": 253
+        },
+        "rank": {
+            "x": 207,
+            "y": 39,
+            "maxwidth": 120,
+            "maxheight": 28,
+            "align": "right",
+            "type": "memberCountType",
+            "othertype": "talkCountType"
+        },
+        "pseudo": {
+            "x": 450,
+            "y": 159,
+            "maxwidth": 300,
+            "maxheight": 42,
+            "align": "left"
+        },
+        "role": {
+            "show": false,
+            "x": 412,
+            "y": 160,
+            "maxwidth": 442,
+            "maxheight": 51,
+            "align": "left"
+        },
+        "lvl": {
+            "x": 308,
+            "y": 366,
+            "maxwidth": 70,
+            "maxheight": 45,
+            "align": "center"
+        },
+        "xp": {
+            "x": 725,
+            "y": 293,
+            "maxwidth": 206,
+            "maxheight": 28,
+            "align": "right"
+        },
+        "points": {
+            "x": 725,
+            "y": 351,
+            "maxwidth": 206,
+            "maxheight": 28,
+            "align": "right"
+        },
+        "badges": {
+            "x": 450,
+            "y": 220,
+            "maxsize": 40,
+            "imageratio": 0.75,
+            "maxwidth": 370
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "badgesList": {
+        "_windowsophobe": {
+            "emote": "1001230853831143537",
+            "name": "Windowsophobe",
+            "description": "I use arch btw"
+        },
+        "_adorateur_chaline": {
+            "emote": "997228034253918208",
+            "name": "Adorateur de Chaline",
+            "description": "Chaline. C'est tout"
+        },
+        "_dev_chaline": {
+            "emote": "997228085902573648",
+            "name": "Dev Chaline",
+            "description": "RRéservé aux développeurs de Chaline"
+        },
+        "_youzaki": {
+            "emote": "997228098691014676",
+            "name": "Youzaki",
+            "description": "Un mec comme ça"
+        },
+        "_cucumber": {
+            "emote": "1001225499084865536",
+            "name": "Passionné de concombre",
+            "description": "Il les aime beaucoup, il en fait même pousser à côté d'un centrale nucléaire"
+        },
+        "_clem": {
+            "emote": "1001225520056385656",
+            "name": "C",
+            "description": "C super le c, on le c"
+        },
+        "_salt": {
+            "emote": "1001227489659592854",
+            "name": "Mec salé",
+            "description": "La légende raconte qu'il pourrait concurrencer l'entièreté de la production de sel français"
+        },
+        "_chat": {
+            "emote": "997227911490850856",
+            "name": "Chat",
+            "description": "C'est un chat"
+        },
+        "_miro": {
+            "emote": "1004313093469376603",
+            "name": "Katsu Mi Su",
+            "description": "Badge de Miro"
+        }
+    }
+}

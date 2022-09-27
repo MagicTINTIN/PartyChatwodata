@@ -1,0 +1,111 @@
+{
+    "name": "buttonstest",
+    "desc": "test de boutons",
+    "steps": [
+        {
+            "type": "choice",
+            "title": "Boutons buggés ?",
+            "message": "Choisissez le mode de fonctionnement",
+            "choices": [
+                {
+                    "buttoname": "Long",
+                    "action": "addw:long&goto:2"
+                },
+                {
+                    "buttoname": "Loop",
+                    "action": "addw:loop&goto:1"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Loop",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:1&goto:1"
+                },
+                {
+                    "buttoname": "STOP",
+                    "action": "addw:stop&goto:end"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Long",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:0"
+                },
+                {
+                    "buttoname": "STOP",
+                    "action": "addw:stop&goto:end"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Long",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:0"
+                },
+                {
+                    "buttoname": "STOP",
+                    "action": "addw:stop&goto:end"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Long",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:0"
+                },
+                {
+                    "buttoname": "STOP",
+                    "action": "addw:stop&goto:end"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Long",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:0"
+                },
+                {
+                    "buttoname": "STOP",
+                    "action": "addw:stop&goto:end"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "title": "Boutons buggés ? - Long",
+            "message": "Continuer ?",
+            "choices": [
+                {
+                    "buttoname": "Continue",
+                    "action": "addw:0"
+                },
+                {
+                    "buttoname": "STOP FINAL",
+                    "action": "addw:stop"
+                }
+            ]
+        }
+    ]
+}

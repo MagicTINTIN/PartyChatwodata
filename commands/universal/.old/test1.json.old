@@ -1,0 +1,26 @@
+{
+    "name": "test1",
+    "desc": "description",
+    "steps": [
+        {
+            "type": "input",
+            "title": "Entree",
+            "message": "Entrez le nombre de",
+            "action": "adin&goto:2"
+        },
+        {
+            "type": "input",
+            "title": "test suite",
+            "timedelay": 20000,
+            "message": "Entrez le nombre trois",
+            "action": "addw:test&adip"
+        },
+        {
+            "type": "input",
+            "title": "On a raté une étape non ?",
+            "timedelay": 69000,
+            "message": "Entrez le nombre quatre",
+            "action": "addw:test&adip"
+        }
+    ]
+}

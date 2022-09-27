@@ -1,0 +1,20 @@
+{
+    "name": "send",
+    "desc": "Envoyer un message avec le bot",
+    "steps": [
+        {
+            "type": "input",
+            "title": "Send | Salon",
+            "timedelay": 25000,
+            "message": "Envoyez l'ID du salon dans lequel sera envoyé le message",
+            "action": "adin"
+        },
+        {
+            "type": "input",
+            "title": "Send | Message",
+            "timedelay": 60000,
+            "message": "Envoyez le message à envoyer",
+            "action": "adin"
+        }
+    ]
+}

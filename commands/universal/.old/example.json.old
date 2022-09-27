@@ -1,0 +1,43 @@
+{
+    "name": "example",
+    "desc": "description",
+    "_comment": "commande générée",
+    "steps": [
+        {
+            "type": "input",
+            "message": "Entrez le nombre de",
+            "action": "addm:test&goto:2"
+        },
+        {
+            "_comment": "this step is skipped",
+            "type": "menu",
+            "message": "fonctionnalité pas encore supportée",
+            "choices": [
+                {
+                    "name": "choix1",
+                    "description": "c'est le choix 1",
+                    "action": "goto:3"
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "message": "Veuillez choisir entre",
+            "choices": [
+                {
+                    "buttoname": "Choix1",
+                    "action": "addm:1&goto:end"
+                },
+                {
+                    "buttoname": "Choix2",
+                    "action": "addm:none"
+                }
+            ]
+        },
+        {
+            "type": "channelChoice",
+            "message": "Choisissez un channel",
+            "action": "amid"
+        }
+    ]
+}

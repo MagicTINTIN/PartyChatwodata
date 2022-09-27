@@ -1,0 +1,13 @@
+{
+    "name": "say",
+    "desc": "TTS Français en vocal",
+    "steps": [
+        {
+            "type": "input",
+            "title": "Say | Message",
+            "timedelay": 25000,
+            "message": "Envoyez un message qui contient ce que Chaline va dire",
+            "action": "adin"
+        }
+    ]
+}

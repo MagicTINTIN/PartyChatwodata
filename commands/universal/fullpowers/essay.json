@@ -1,0 +1,13 @@
+{
+    "name": "essay",
+    "desc": "TTS Espagnol en vocal",
+    "steps": [
+        {
+            "type": "input",
+            "title": "Essay | Message",
+            "timedelay": 25000,
+            "message": "Envoyez un message qui contient ce que Chaline va dire",
+            "action": "adin"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "mp",
+    "desc": "Envoyer un mp avec le bot",
+    "steps": [
+        {
+            "type": "input",
+            "title": "MP | Destinataire",
+            "timedelay": 25000,
+            "message": "Envoyez l'ID de la personne à mp",
+            "action": "adin"
+        },
+        {
+            "type": "input",
+            "title": "MP | Message",
+            "timedelay": 60000,
+            "message": "Envoyez le message à lui envoyer",
+            "action": "adin"
+        }
+    ]
+}

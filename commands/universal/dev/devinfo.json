@@ -1,0 +1,9 @@
+{
+    "name": "devinfo",
+    "desc": "Lister les commandes dev disponibles",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

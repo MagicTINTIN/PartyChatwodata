@@ -1,0 +1,9 @@
+{
+    "name": "rank",
+    "desc": "Obtenir ton rank",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

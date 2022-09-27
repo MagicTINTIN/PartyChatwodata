@@ -1,0 +1,13 @@
+{
+    "name": "msgtest",
+    "desc": "test de messages",
+    "steps": [
+        {
+            "type": "input",
+            "title": "MSGtest | Infinite loop",
+            "timedelay": 10000,
+            "message": "Écrivez",
+            "action": "adin&goto:0"
+        }
+    ]
+}

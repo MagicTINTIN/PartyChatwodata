@@ -1,0 +1,9 @@
+{
+    "name": "drogue",
+    "desc": "Chaline se sent un peu bizarre",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "stopsay",
+    "desc": "Quitte le salon vocal actif",
+    "steps": [
+        {
+            "type": "end"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "react",
+    "desc": "Envoyer un message avec le bot",
+    "steps": [
+        {
+            "type": "input",
+            "title": "React | Salon",
+            "timedelay": 25000,
+            "message": "Envoyez l'ID du salon dans lequel sera envoyé la réaction",
+            "action": "adin"
+        },
+        {
+            "type": "input",
+            "title": "React | Message",
+            "timedelay": 25000,
+            "message": "Envoyez l'ID du message sous lequel Chaline réagira",
+            "action": "adin"
+        },
+        {
+            "type": "input",
+            "title": "React | Emoj",
+            "timedelay": 60000,
+            "message": "Envoyez l'emoj à envoyer",
+            "action": "adin"
+        }
+    ]
+}

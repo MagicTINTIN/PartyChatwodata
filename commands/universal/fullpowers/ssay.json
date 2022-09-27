@@ -1,0 +1,53 @@
+{
+    "name": "ssay",
+    "desc": "TTS Français en vocal",
+    "steps": [
+        {
+            "type": "menuChoice",
+            "title": "Ssay | Choix de la langue",
+            "timedelay": 30000,
+            "message": "fonctionnalité supportée",
+            "choicesList": [
+                {
+                    "name": "Allemand",
+                    "description": "J'adore cette langue",
+                    "action": "addw:de-DE"
+                },
+                {
+                    "name": "Russe",
+                    "description": "ru-BY",
+                    "action": "addw:ru-BY"
+                },
+                {
+                    "name": "Chinois",
+                    "description": "zh-CN",
+                    "action": "addw:zh-CN"
+                },
+                {
+                    "name": "Japonais",
+                    "description": "私の名前は Chaline",
+                    "action": "addw:ja-JP"
+                },
+                {
+                    "name": "Autre",
+                    "description": "Choisir un autre code sous la forme xx-XX",
+                    "action": "goto:2"
+                }
+            ]
+        },
+        {
+            "type": "input",
+            "title": "Ssay | Message",
+            "timedelay": 25000,
+            "message": "Envoyez un message qui contient ce que Chaline va dire",
+            "action": "adin&goto:end"
+        },
+        {
+            "type": "input",
+            "title": "Ssay | Choix de la langue",
+            "timedelay": 25000,
+            "message": "Envoyez un message qui contient la langue avec laquelle Chaline parlera.\nElle sera donnée sous la forme xx-XX",
+            "action": "adin&goto:1"
+        }
+    ]
+}

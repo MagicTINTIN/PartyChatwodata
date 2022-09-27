@@ -1,0 +1,29 @@
+{
+    "name": "test2",
+    "desc": "description",
+    "steps": [
+        {
+            "type": "choice",
+            "title": "Un choix",
+            "message": "Veuillez choisir entre",
+            "choices": [
+                {
+                    "buttoname": "Choix1",
+                    "action": "addw:1&goto:end"
+                },
+                {
+                    "buttoname": "Choix2",
+                    "action": "addw:none 1 n",
+                    "color": "DANGER"
+                }
+            ]
+        },
+        {
+            "type": "input",
+            "title": "test suite",
+            "timedelay": 20000,
+            "message": "Entrez le nombre troisieme",
+            "action": "addw:test&goto:2"
+        }
+    ]
+}

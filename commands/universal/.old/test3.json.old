@@ -1,0 +1,12 @@
+{
+    "name": "test3",
+    "desc": "description",
+    "steps": [
+        {
+            "type": "channelChoice",
+            "title": "Channel ?",
+            "message": "Le channel est",
+            "action": "adch"
+        }
+    ]
+}

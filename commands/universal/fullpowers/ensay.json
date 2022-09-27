@@ -1,0 +1,13 @@
+{
+    "name": "ensay",
+    "desc": "TTS Anglais en vocal",
+    "steps": [
+        {
+            "type": "input",
+            "title": "Ensay | Message",
+            "timedelay": 25000,
+            "message": "Envoyez un message qui contient ce que Chaline va dire",
+            "action": "adin"
+        }
+    ]
+}
